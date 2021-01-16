@@ -1,0 +1,37 @@
+body {
+  margin-top: 7%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Ubuntu", Courier, monospace;
+}
+
+.header-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.generate-password {
+  cursor: pointer;
+  border: 2px solid #64dfdf;
+  background-color: #80ffdb;
+  border-radius: 20px;
+  color: #000;
+  padding: 13px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+.copy-password {
+  cursor: pointer;
+  border: 2px solid #0f3057;
+  background-color: #00587a;
+  color: #fff;
+  border-radius: 20px;
+  padding: 13px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-weight: bold;
+}
